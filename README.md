@@ -73,6 +73,7 @@ Visit: `http://localhost:3000`
 ## 📸 Screenshots
 
 ![Screenshot (1)](https://github.com/user-attachments/assets/ec54626b-29fe-4852-86c7-79c4ea57881e)
+![Screenshot (2)](https://github.com/user-attachments/assets/023ce4da-3c37-40d7-822c-9125547e0d37)
 
 
 ## 📝 Notes
