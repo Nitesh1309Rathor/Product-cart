@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# 🛒 Product Checkout App (React)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application that simulates a product checkout system. Add products by ID, manage the cart, and calculate the total price.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- ✅ Add products to the cart using Product ID
+- 🔁 Auto-increment quantity if product already exists
+- 📋 Display cart items in a table
+- ❌ Remove items from the cart
+- 💰 Calculate total price at checkout
 
-### `npm start`
+## 📦 Product Catalog
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Product ID | Name        | Price (₹) |
+|------------|-------------|-----------|
+| P101       | Laptop      | 50,000    |
+| P102       | Mouse       | 500       |
+| P103       | Keyboard    | 1,000     |
+| P104       | Headphones  | 1,500     |
+| P105       | Monitor     | 10,000    |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧑‍💻 Tech Stack
 
-### `npm test`
+- **React (with Hooks)**
+- **JavaScript (ES6)**
+- **HTML & CSS**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🖼️ UI Components
 
-### `npm run build`
+- **Header**: App title
+- **SearchField**: Input to add product by ID
+- **CartTable**: Table showing product details and quantity
+- **Checkout**: Button to compute total price
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📁 Folder Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+src/
+├── App.js
+├── index.js
+├── styles.css (optional)
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Getting Started
 
-### `npm run eject`
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/product-checkout-app.git
+cd product-checkout-app
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Install dependencies
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Start the development server
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 4. Open in browser
+Visit: `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧪 Example Usage
 
-## Learn More
+- 🔍 Type `P101` → click “Add to Cart”
+- ➕ Add again to increase quantity
+- ❌ Click ❌ to remove an item
+- 🧾 Click "Checkout" to view total
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📸 Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot (1)](https://github.com/user-attachments/assets/ec54626b-29fe-4852-86c7-79c4ea57881e)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 Notes
 
-### Analyzing the Bundle Size
+- Product ID must match exactly (e.g., `P101`, not `p101`)
+- Alert shown for invalid Product ID
+- Total is calculated only on Checkout button click
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📄 License
 
-### Making a Progressive Web App
+This project is licensed under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ using React.
